@@ -1,0 +1,31 @@
+   0 cd /home
+   1 mkdir animals
+   2 cd /animals
+   3 cd animals
+   4 mkdir dogs cats fish
+   5 tree
+   6 touch /home/animals/dogs/pluto.txt
+   7 touch /home/animals/cats/garfield.txt
+   8 touch /home/animals/fish/nemo.txt
+   9 tree
+  10 cd /home
+  11 mkdir planets
+  12 cd /opt
+  13 touch mercury.txt venus.txt mars.txt jupiter.txt
+  14 tree
+  15 cd/tmp
+  16 cd /tmp
+  17 touch adam.txt
+  18 cd /home
+  19 mkdir humans
+  20 cp /tmp/adam.txt /home/humans
+  21 tree
+  22 cd /tmp
+  23 touch evA.txt
+  24 mv /tmp/evA.txt /opt/eve.txt
+  25 cd /opt
+  26 mv /opt/eve.txt /home/humans
+  27 cd /home/humans
+  28 ls
+  29 history
+  30 history > /home/hwlinux1206.txt
