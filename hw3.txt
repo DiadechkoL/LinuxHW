@@ -1,0 +1,32 @@
+   0 mkdir /tmp/liza/
+   1 date
+   2 date > /tmp/liza/newfile.txt
+   3 echo "Homework3" >> /tmp/liza/newfile.txt
+   4 cat /tmp/liza/newfile.txt
+   5 df -h /
+   6 df -h / | awk'{print$5}' > /tmp/liza/newfile.txt
+   7 cd /
+   8 df -h | grep -w / | awk '{print$5}' > /tmp/liza/newfile.txt
+   9 cat /tmp/liza/newfile.txt
+  10 date
+  11 date >> /tmp/liza/newfile.txt
+  12 echo"Homework3" >> /tmp/liza/newfile.txt
+  13 echo "Homework" >> /tmp/liza/newfile.txt
+  14 cat /tmp/liza/newfile.txt
+  15 history | tail -5 | >> /tmp/liza/newfile.txt
+  16 cat /tmp/liza/newfile.txt
+  17 hisory -5
+  18 hisory | tail -5
+  19 history | tail  -n 5
+  20 history | tail -n 5 | >> /tmp/liza/newfile.txt
+  21 cat /tmp/liza/newfile.txt
+  22 history | tail -n 5 >> /tmp/liza/newfile.txt
+  23 cat /tmp/liza/newfile.txt
+  24 grep "vendor" /proc/cpuinfo >> /tmp/liza/newfile.txt
+  25 cat /tmp/liza/newfile.txt
+  26 history > homework3.txt && export_file homework3.txt
+  27 vi /proc/cpuinfo
+  28 cat /tmp/liza/newfile.txt
+  29 vi /tmp/liza/newfile.txt
+  30 history
+  31 history > hw3.txt && export_file hw3.txt
